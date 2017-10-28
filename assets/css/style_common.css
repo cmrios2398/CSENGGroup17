@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 .view {
 	width: 316px;
 	height: 216px;
@@ -18,25 +19,25 @@
 	width: 60px;
 	height: 100%;
 	z-index: 100;
-	
+
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
 	-o-transform-style: preserve-3d;
 	-ms-transform-style: preserve-3d;
 	transform-style: preserve-3d;
-	
+
 	-webkit-transform-origin: left center;
 	-moz-transform-origin: left center;
 	-o-transform-origin: left center;
 	-ms-transform-origin: left center;
 	transform-origin: left center;
-	
+
 	-webkit-transition: -webkit-transform 150ms ease-in-out;
 	-moz-transition: -moz-transform 150ms ease-in-out;
 	-o-transition: -o-transform 150ms ease-in-out;
 	-ms-transition: -ms-transform 150ms ease-in-out;
 	transition: transform 150ms ease-in-out;
-		
+
 }
 
 .view div.view-back{
@@ -92,9 +93,9 @@
 	padding-right: 5px;
 }
 
-.view .s2, 
-.view .s3, 
-.view .s4, 
+.view .s2,
+.view .s3,
+.view .s4,
 .view .s5 {
 	-webkit-transform: translate3d(60px,0,0);
 	-moz-transform: translate3d(60px,0,0);
