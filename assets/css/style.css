@@ -5,12 +5,71 @@ margin-right:auto;
 margin-left:auto;
 height:auto;}
 
+.iconbox {
+    height: 300px;
+    padding: 10px;
 
+}
+.iconbox > div {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+
+}
+.iconbox p {
+    margin: 0;
+}
+
+.clearfix::after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
 
 
 .img-responsive
 {
 	 display: block;
-  max-width: 300px;
+  max-width: 400px;
   height: auto;
+}
+#wrapper {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+}
+#home1 {
+    width: 47.5%;
+    height: 300px;
+    float: left;
+    margin-right: 5%;
+}
+
+#home2 {
+    width: 47.5%;
+    height: 300px;
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+
+@media (max-width:767px) {
+    #wrapper{
+        width: 100%;
+        height: auto;
+    }
+    #home1 {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+    #home2 {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
 }
