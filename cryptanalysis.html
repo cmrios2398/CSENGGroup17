@@ -48,8 +48,8 @@
 
   </header>
 
-<section id = "content">
-  <div class = "container">
+<section style = "background-color: #222222; padding-top: 0px; padding-bottom:50px" id = "content">
+  <div style = "text-align: justify; text-justify: inline-block; padding: 50px; background-color: #ffffff" class = "container">
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading" style="color:#3680C1">Cryptanalysis</h2>
@@ -66,50 +66,90 @@
           <p>Now that you understand of how old the art of cryptanalysis is. Let’s look at a more recent event: World War II. In this war, the Allies benefitted tremendously from their cryptanalysis success. The most famous examples include the German Enigma Machine and the Lorenz cipher. It is estimated that thanks to this success, the war was shortened by up to two years, saving millions of lives.</p>
           <br>
           <div id="wrapper">
-            <iframe id = "home1" src="https://www.youtube.com/embed/Btqro3544p8" frameborder="0" gesture="media" allowfullscreen></iframe>
-
-            <iframe id = "home2" src="https://www.youtube.com/embed/ZVlMJ1tmT_c" frameborder="0" gesture="media" allowfullscreen></iframe>
-
+            <div style="float:left; height: 360px; width: 460px">
+            <iframe id = "home1" src="https://www.youtube.com/embed/Btqro3544p8" frameborder="0" gesture="media" allowfullscreen><p>Your browser does not support this video.</iframe>
+            <p style = "text-align:center; width = 47.5%; float:bottom">Alan Turing - SciShow Youtube Channel</p>
+          </div>
+          <div style="float:right; height: 360px; width: 460px">
+            <iframe id = "home2" src="https://www.youtube.com/embed/ZVlMJ1tmT_c" frameborder="0" gesture="media" allowfullscreen><p>Your browser does not support this video.</p></iframe>
+             <p style = "text-align:center; width = 47.5%; float:bottom">Bletchley Park - CNBC Youtube Channel</p>
+           </div>
             <div class="clear"></div>
           </div>
-          <br>
-          <br>
-          <p>Ever since then, governments throughout the globe have started recognising how important cryptanalysis is, hence they invest in this field. For instance, GCHQ (the British intelligence team in charge of the country digital protection) and the NSA (same as GCHQ but in the US), which are still pretty active today, play a very important role make sure that citizens are safe, and that information is not accessed without permission. </p>
+
+            <p>Ever since then, governments throughout the globe have started recognising how important cryptanalysis is, hence they invest in this field. For instance, GCHQ (the British intelligence team in charge of the country digital protection) and the NSA (same as GCHQ but in the US), which are still pretty active today, play a very important role making sure that citizens are safe, and that information is not accessed without permission. </p>
           <br>
         <h4>Examples</h4>
           <ul>
             <li>Frequency Analysis: This is one of the most classical tools used to break simple ciphers. In most languages, some letters and combination of letters appear more often than others. In English, the letter “E” is the most common letter. Similarly, the digraph “TH” is the most likely pair of letters. These little facts of course vary with language. And in some cases, they are not applicable.
               <br>
               <br>
-
-
               <div class = "iconbox">
-                <div class = "clearfix" style = "float:left" id = "tut-icon">
+                <div  style = "float:left" id = "tut-icon" width = "340" height= "272" alt = "English Frequency Analysis">
                   <img src = "assets/img/frequencyAnalysisEN.png" alt="English Frequency Analysis"/>
                   <p>English Frequency Analysis</p>
                 </div>
-                <div class = "clearfix" style = "float:left" id= "vid-icon" >
-                  <img src = "assets/img/frequencyAnalysisES.png" width = "340" height = "272" alt = "Spanish Frequency Analysis"/>
+                <div  style = "float:left " id= "vid-icon" >
+                  <img src = "assets/img/frequencyAnalysisES.png" width = "340" height = "272" alt = "Spanish Frequency Analysis">
                   <p>Spanish Frequency Analysis</p>
                 </div>
-                <div class = "clearfix" style="float:left" id="add-icon" >
-                  <img src = "assets/img/frequencyAnalysisIT.png" width = "340" height = "272" alt = "Italian Frequency Analysis"/>
+                <div style="float:left;" id="add-icon" >
+                  <img src = "assets/img/frequencyAnalysisIT.png" width = "340" height = "272" alt = "Italian Frequency Analysis">
                   <p>Italian Frequency Analysis</p>
                 </div>
               </div>
 
-              </div>
             </li>
-            <br>
+            <br><br>
 
-            <li>Polyalphabetic Cypher: For centuries, this cypher was considered to be completely secure: “le chiffre indéchiffrable - the indecipherable cipher” they called it. The French diplomat that came up with it, Blaise de Vigenère, thought it would be impossible to break. But he was wrong. Charles Babbage and Friedrich Kasiski succeded in breaking it, however it took them centuries!
+            <li style="clear:both; padding-top:10px">Polyalphabetic Cypher: For centuries, this cypher was considered to be completely secure: “le chiffre indéchiffrable - the indecipherable cipher” they called it. The French diplomat that came up with it, Blaise de Vigenère, thought it would be impossible to break. But he was wrong. Charles Babbage and Friedrich Kasiski succeded in breaking it, however it took them centuries!
+              <br><br>
 
+              <div style = "text-align:center;">
+                <img src= "assets/img/VIGtable.jpg">
+                <p>The Vigenère Table</p>
+              </div>
+              <br><br>
             </li>
             <li>The Bombe: This one was the machine that Alan Turing, the father of Computer Science, and his team developed in order to break the Enigma, mentioned before. It was an electro-mechanical device used to decipher secret messages coming from Germany during World War II.</li>
+            <br><br>
+            <div style= "text-align: center">
+              <img src = "assets/img/theBombe.png">
+              <p>A replica of the Bombe - The Imitation Game</p>
+            </div>
+            <br><br>
           </ul>
 
     </div>
     </div>
 </div>
-
 </section>
+<div class = "container" style="height: 20px">
+</div>
+<!-- REFERENCES & FURTHER INFO -->
+<div class = "footerContainer">
+      <h2>REFERENCES & FURTHER INFO</h2>
+<div class = "introFooter" >
+    <h3>Introduction</h3>
+    <h4>Further Reading</h4>
+    <p><a href = "https://en.wikipedia.org/wiki/Cryptanalysis">Wikipedia</a>  •  <a href = "http://searchsecurity.techtarget.com/definition/cryptanalysis">SearchSecurity</a>  •  <a href = "https://technet.microsoft.com/en-us/library/cc961632.aspx">Microsoft TechNet</a>  •  <a href = "http://practicalcryptography.com/cryptanalysis/">Practical Cryptography</a></p>
+    <h4>Videos</h4>
+    <p><a href = "https://www.youtube.com/watch?v=UxE5oWGlH7w">Cryptanalysis Careers @ NSA</a>  •  <a href = ""></a></p>
+    <h3>History</h3>
+    <h4>Further Reading</h4>
+    <p><a href = "https://www.biography.com/people/alan-turing-9512017">Biography (Alan Turing)</a>  •  <a href = ""></a></p>
+    <h4>Videos</h4>
+    <p><a href = "https://youtu.be/d2NWPG2gB_A?list=PLSZR1tkzeKC1kzIHSGLmtlYwNaFoaMSV3">Computerphile's Engima Series</a>  •  <a href="https://www.youtube.com/watch?v=gtRLmL70TH0">Cambridge University (Alan Turing - Celebrating the life of a genius)</a></p>
+  </div>
+</div>
+<!-- FOOTER -->
+<div class="container" style = "text-align:center">
+  <div class="row">
+
+      <h3 style="color:#3680C1">UCL MENG COMPUTER SCIENCE PROJECT</h3>
+      <h4 style="color:#3680C1">Christian Martín Ríos <b>•</b> Paul Cho <b>•</b> Sonia Shah <b>•</b> Yifan Yao</h3>
+
+  </div>
+</div>
+</body>
+</html>
