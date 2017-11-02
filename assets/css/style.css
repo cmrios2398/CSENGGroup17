@@ -1,23 +1,57 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
+
 .container{padding-right:15px;
 padding-left:15px;
 margin-right:auto;
 margin-left:auto;
 height:auto;}
 
+
+
+.footerContainer{
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left:0px;
+  margin-right:0px;
+  height:auto;
+  background-color: #222222;
+  text-align: justify;
+  text-justify: inline-block;
+  }
+
+.introFooter{
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #8c8c8c
+}
+
+.introFooter h4{
+  color: #8c8c8c;
+}
+.footerContainer h2 {
+  color:#3680C1;
+  text-align: center;
+}
+.footerContainer h3{
+  color: #999999;
+}
+
 .iconbox {
     height: 300px;
-    padding: 10px;
+    padding: 40px;
+    text-align: center;
 
 }
 .iconbox > div {
     text-align: center;
-    width: 100%;
+    width: 300px;
     display: inline-block;
-
+    clear: right;
 }
 .iconbox p {
     margin: 0;
+    text-align: center;
 }
 
 .clearfix::after {
@@ -36,19 +70,27 @@ height:auto;}
   height: auto;
 }
 #wrapper {
-    width: 1000px;
+    width: auto;
     height: auto;
     margin: 0 auto;
+    padding: 30px
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
 #home1 {
-    width: 47.5%;
+    width: 100%;
     height: 300px;
     float: left;
     margin-right: 5%;
 }
 
 #home2 {
-    width: 47.5%;
+    width: 100%;
     height: 300px;
     float: left;
 }
@@ -65,11 +107,11 @@ height:auto;}
     #home1 {
         width: 100%;
         height: auto;
-        float: none;
+        float: top;
     }
     #home2 {
         width: 100%;
         height: auto;
-        float: none;
+        float: top;
     }
 }
