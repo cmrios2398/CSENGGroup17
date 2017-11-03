@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Information Security</title>
+<title>Cryptography</title>
 <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 <link rel="stylesheet" type="text/css" href="assets/css/boot.css">
@@ -46,19 +46,19 @@
   </header>
   <head>
 
-      </header>
+  </header>
 
-      <section style = "background-color: #222222; padding-top: 0px; padding-bottom:50px" id = "content">
-        <div style = "text-align: justify; text-justify: inline-block; padding: 50px; background-color: #ffffff" class = "container">
-          <div class="row">
-            <div class="col-lg-12 text-center">
-              <h2 class="section-heading" style="color:#3680C1">Cryptography</h2>
-              <h3 class="section-subheading text-muted" style = " font-family: 'Raleway'"><b>Introduction <b>·</b> History <b>·</b> Examples <b></h3>
-            </div>
+<section style = "background-color: #222222; padding-top: 0px; padding-bottom:50px" id = "content">
+  <div style = "text-align: justify; text-justify: inline-block; padding: 50px; background-color: #ffffff" class = "container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading" style="color:#3680C1">Cryptography</h2>
+        <h3 class="section-subheading text-muted" style = " font-family: 'Raleway'"><b>Introduction <b>·</b> History <b>·</b> Examples <b>·</b> Researchers</b></h3>
+      </div>
             <!-- INTRODUCTION -->
             <div>
               <h4>Introduction</h4>
-                <p>The word “cryptography” is from Greek words kryptós (hidden) and gráphein (writing). It is a study of mathematical techniques for secure communication, which is using “hidden writing” to keep information secret. Using a simple example, we decide a set of secret code between us and no other people know how it works, and the secret code is the ‘key’. Then I encrypt the massage and pass to you. You can easily use the ‘key’ to decrypt the message, but other people are not able to know the original message. </p>
+                <p style="font-size: 16px;">The word “cryptography” is from Greek words kryptós (hidden) and gráphein (writing). It is a study of mathematical techniques for secure communication, which is using “hidden writing” to keep information secret. Using a simple example, we decide a set of secret code between us and no other people know how it works, and the secret code is the ‘key’. Then I encrypt the massage and pass to you. You can easily use the ‘key’ to decrypt the message, but other people are not able to know the original message. </p>
                 <br>
               <h4>History</h4>
               <ul>
@@ -66,62 +66,58 @@
                 <br>
                   <li><h5>Early Cryptography </h5>
                       <br>
-                      <p>About 4000 years ago, a number of unusual symbols were written on the tomb of nobleman KHNUMHOTEP II. It is known as the oldest text contained a modification of the text, which is one of cryptography’s components.</p>
-                      <p>In 1900BC, the first known use of cryptography appeared in Egypt. It was found carved into the wall of a tomb from the Old Kingdom of Egypt circa.</p>
-                      <p>In 5th century BC, a society called SPARTANS sent and received secret messages using a cylinder cryptographic device. The device, called a SCYTALE, was only owned by the sender and the recipient of the message. The message was written across a narrow strip and wound around the cylinder. Only a same size of SCYTALE was used to re-wound it then people can get the information written.</p>
+                      <p style = "font-size: 16px;">About 4000 years ago, a number of unusual symbols were written on the tomb of nobleman KHNUMHOTEP II. It is known as the oldest text contained a modification of the text, which is one of cryptography’s components.</p>
+                      <p style="font-size:16px;">In 1900BC, the first known use of cryptography appeared in Egypt. It was found carved into the wall of a tomb from the Old Kingdom of Egypt circa.</p>
+                      <p style="font-size:16px;">In 5th century BC, a society called SPARTANS sent and received secret messages using a cylinder cryptographic device. The device, called a SCYTALE, was only owned by the sender and the recipient of the message. The message was written across a narrow strip and wound around the cylinder. Only a same size of SCYTALE was used to re-wound it then people can get the information written.</p>
                       <div class = "iconbox">
-                          <div  style = "text-align:center" id = "tut-icon" width = "232" height= "140" alt = "A SCYTALE (from Wikipedia)">
-                            <img src = "assets/img/Cryptography/1.png" alt="A SCYTALE (from Wikipedia)"/>
-                            <p>A SCYTALE (from Wikipedia)</p>
+                          <div  style = "text-align:center" id = "tut-icon" width = "232" height= "140" alt = "A SCYTALE ">
+                            <img src = "assets/img/Cryptography/1.png" alt="A SCYTALE "/>
+                            <p>A SCYTALE </p>
                           </div>
                         </div>
-                      <p>From 60-50BC, JULIUS CAESAR developed a method, called Caesar cipher, to encrypt message by a shift of three letters. Caesar was the first recorded person to use this kind of method. However, it is believed other substitution ciphers had been used before.</p>
-                      <p>In 1466, an essay written by an Italian LEON BATTISTA ALBERTI described building a cipher disk and founding the idea of POLY ALPHABETIC ciphers. However he did not develop his concept and left it to others. A French cryptographer BLAISE DE VIGENERE developed the the VIGENERE SQUARE based on a practical poly alphabetic system. At the time, it was believed the VIGENERE SQUARE was unbreakable. </p>
+                      <p style="font-size: 16px;">From 60-50BC, JULIUS CAESAR developed a method, called Caesar cipher, to encrypt message by a shift of three letters. Caesar was the first recorded person to use this kind of method. However, it is believed other substitution ciphers had been used before.</p>
+                      <p style="font-size: 16px;"></p>In 1466, an essay written by an Italian LEON BATTISTA ALBERTI described building a cipher disk and founding the idea of POLY ALPHABETIC ciphers. However he did not develop his concept and left it to others. A French cryptographer BLAISE DE VIGENERE developed the the VIGENERE SQUARE based on a practical poly alphabetic system. At the time, it was believed the VIGENERE SQUARE was unbreakable. </p>
                       <div class = "iconbox">
-                          <div  style = "text-align:center" id = "tut-icon" width = "429" height= "284" alt = "LEON BATTISTA ALBERTI (left) and BLAISE DE VIGENERE(right)(From Wikipedia)">
-                            <img src = "assets/img/Cryptography/2&3.png" alt="LEON BATTISTA ALBERTI (left) and BLAISE DE VIGENERE(right)(From Wikipedia)"/>
-                            <p>LEON BATTISTA ALBERTI (left) and BLAISE DE VIGENERE(right)(From Wikipedia)</p>
+                          <div  style = "text-align:center" id = "tut-icon" width = "429" height= "284" alt = "LEON BATTISTA ALBERTI (left) and BLAISE DE VIGENERE(right)">
+                            <img src = "assets/img/Cryptography/2&3.png" alt="LEON BATTISTA ALBERTI (left) and BLAISE DE VIGENERE(right)"/>
+                            <p>LEON BATTISTA ALBERTI (left) and BLAISE DE VIGENERE(right)</p>
                           </div>
                         </div>
                       <br>
                       <br>
                       <li><h5>Modern Cryptography </h5>
                         <br>
-                        <p>In the 1840s Edgar Allan Poe solved many ciphers using systematic methods. Alexander's Weekly (Express) Messenger, a Philadelphia paper, noticed his abilities and he created a public stir successfully. </p>
-                        <p>Probably until 1854, CHARLES BABBAGE found a way to decrypt encrypted message successfully by developing the method of statistical using the Vigenere square. However because he did not publish his result, this fact was not discovered until the 20th century.</p>
+                        <p style="font-size: 16px;">In the 1840s Edgar Allan Poe solved many ciphers using systematic methods. Alexander's Weekly (Express) Messenger, a Philadelphia paper, noticed his abilities and he created a public stir successfully. </p>
+                        <p style="font-size: 16px;">Probably until 1854, CHARLES BABBAGE found a way to decrypt encrypted message successfully by developing the method of statistical using the Vigenere square. However because he did not publish his result, this fact was not discovered until the 20th century.</p>
                         <div class = "iconbox">
-                            <div  style = "text-align:centerft" id = "tut-icon" width = "197" height= "232" alt = "BLAISE DE VIGENERE (1791-1871)(From Wikipedia)">
-                              <img src = "assets/img/Cryptography/4.png" alt="BLAISE DE VIGENERE (1791-1871)(From Wikipedia)"/>
-                              <p>BLAISE DE VIGENERE (1791-1871)(From Wikipedia)</p>
+                            <div  style = "text-align:centerft" id = "tut-icon" width = "197" height= "232" alt = "BLAISE DE VIGENERE (1791-1871)">
+                              <img src = "assets/img/Cryptography/4.png" alt="BLAISE DE VIGENERE (1791-1871)"/>
+                              <p>BLAISE DE VIGENERE (1791-1871)</p>
                             </div>
                           </div>
-                          <p>In 1863, a German FRIEDRICH WILHELM KASISKI published a book on cryptography and break Vigenere by using a method of analysis gaps in the encrypted messages. </p>
-                          <p>Apart from that, beginning in 1836, an electrical telegraph system was developed. Around 1837, Morse developed a forerunner of the modern International Morse code which can be use to transmit natural language using in the telegraph system. The Morse code uses different numbers of dots and dashes to represent different letters. The Morse code was used widely in WWI and WWII, especially between the warships and the naval bases.</p>
+                          <br>
+                          <p style="font-size: 16px;">In 1863, a German FRIEDRICH WILHELM KASISKI published a book on cryptography and break Vigenere by using a method of analysis gaps in the encrypted messages. </p>
+                          <p style="font-size: 16px;">Apart from that, beginning in 1836, an electrical telegraph system was developed. Around 1837, Morse developed a forerunner of the modern International Morse code which can be use to transmit natural language using in the telegraph system. The Morse code uses different numbers of dots and dashes to represent different letters. The Morse code was used widely in WWI and WWII, especially between the warships and the naval bases.</p>
                           <div class = "iconbox">
-                              <div  style = "text-align:center" id = "tut-icon" width = "525" height= "324" alt = "Morse code receiver, recording on paper tape and International Morse Code (from wikipedia)">
-                                <img src = "assets/img/Cryptography/6&9.png" alt="Morse code receiver, recording on paper tape and International Morse Code (from wikipedia)"/>
-                                <p>Morse code receiver, recording on paper tape and International Morse Code (from wikipedia)</p>
+                              <div  style = "text-align:center" id = "tut-icon" width = "525" height= "324" alt = "Morse code receiver, recording on paper tape and International Morse Code ">
+                                <img src = "assets/img/Cryptography/6&9.png" alt="Morse code receiver, recording on paper tape and International Morse Code "/>
+                                <p>Morse code receiver, recording on paper tape and International Morse Code </p>
                               </div>
                             </div>
                           <br>
-                          <br>
-                          <br>
-                          <br>
-                          <p>In WWI, a cipher called ADFGVX cipher was used in Germany army. This cipher only uses A, D, F, G, V and X to encrypt message, and was named by those six letters. Those six letters were chosen because of their differences in the Morse code. <a href="http://practicalcryptography.com/ciphers/adfgvx-cipher/#javascript-implementation" target="_blank">Here</a> is a website can encrypt message using ADFGVX cipher. </p>
+                          <p style="font-size: 16px;">In WWI, a cipher called ADFGVX cipher was used in Germany army. This cipher only uses A, D, F, G, V and X to encrypt message, and was named by those six letters. Those six letters were chosen because of their differences in the Morse code. <a href="http://practicalcryptography.com/ciphers/adfgvx-cipher/#javascript-implementation" target="_blank">Here</a> is a website can encrypt message using ADFGVX cipher. </p>
                           <div class = "iconbox">
                               <div  style = "text-align:center" id = "tut-icon" width = "123" height= "190" alt = "ADFGVX encryption table">
                                 <img src = "assets/img/Cryptography/8.png" alt="ADFGVX encryption table"/>
                                 <p>ADFGVX encryption table</p>
                               </div>
                             </div>
-                          <p style="font-size: 16px">In 1920s, a encryption machine called Enigma was developed by the German engineer Arthur Scherbius and then was widely used by Germen armed forces in WWII. It uses a set of rotors to do random encryption. It was known as “unbreakable”. However, due to its cryptographic weaknesses and operator mistakes, Allied cryptologists break it successfully. It is believed decryption of Enigma is important for the victory of Allied.</p>
+                          <p style="font-size: 16px;">In 1920s, a encryption machine called Enigma was developed by the German engineer Arthur Scherbius and then was widely used by Germen armed forces in WWII. It uses a set of rotors to do random encryption. It was known as “unbreakable”. However, due to its cryptographic weaknesses and operator mistakes, Allied cryptologists break it successfully. It is believed decryption of Enigma is important for the victory of Allied.</p>
 
-                              <div style = "width = 100%; text-align:center" height= "360" alt = "Military Enigma machine(From Wikipedia)">
-                                <img src = "assets/img/Cryptography/10.png" alt="Military Enigma machine(From Wikipedia)"/>
-                                <p style="text-align: center">Military Enigma machine(From Wikipedia)</p>
-
+                              <div style = "width = 100%; text-align:center" height= "360" alt = "Military Enigma machine">
+                                <img src = "assets/img/Cryptography/11.png" alt="Military Enigma machine"/>
+                                <p style="text-align: center">Military Enigma machine</p>
                             </div>
-
                             <br>
                             <br>
                             <br>
@@ -133,8 +129,17 @@
                                 <div class="clear"></div>
                               </div>
 
-                    <p> </p>
-                </ul>
+                            <p></p>
+
+                    <p style="font-size: 16px;">In 1949, Claude Shannon published a paper called "Communication Theory of Secrecy Systems". It was about his work on the mathematical theory of cryptography during wartime. And he proved any unbreakable ciphers have same requirement as one-time pad.</p>
+                    <div style = "width = 100%; text-align:center" width="238" height= "341" alt = "Claude Shannon">
+                      <img src = "assets/img/Cryptography/19.png" alt="Claude Shannon"/>
+                      <p style="text-align: center">Claude Shannon</p>
+                  </div>
+                  <br>
+                  <br>
+                  <p style="font-size: 16px">Nowadays public-key cryptography is widely used in many websites and organizations. This system uses pairs of keys named public keys (which can be disseminated widely) and private keys (which are only held by owners). Holders of public keys can do encryption using their keys. However, only the holder of private key can do decryption of any encrypted message. In a public-key signature system, a message and a private key can be combined to create a short digital signature on the message. Public keys holders can verify whether the signature was made by the owner of private key to check whether the message has been changed by someone else. </p>
+                  </ul>
                 <br>
               <h4>Examples</h4>
                 <ul>
@@ -142,14 +147,28 @@
                       <div style = "text-align:center;">
                           <img src= "assets/img/Cryptography/5.png">
                         </div>
-                    <p>This method is a substitution of original message’s letters to other form. Caesar Cipher is a typical substitution cipher. It shifts the letters of original message. If you want to try a Caesar cipher encryption, click <a href="http://crypto.interactive-maths.com/caesar-shift-cipher.html" target="_blank">here</a>.</p>
-                    <p>However, in each language several letters have larger frequency to be used. Therefore an analysis of frequency can easily break this kind of ciphers. You can learn more about frequency analysis from <a href= "cryptanalysis.html"target="_blank>Cryptanalysis</a>.</p>
+                    <p style="font-size: 16px;">This method is a substitution of original message’s letters to other form. Caesar Cipher is a typical substitution cipher. It shifts the letters of original message. If you want to try a Caesar cipher encryption, click <a href="http://crypto.interactive-maths.com/caesar-shift-cipher.html" target="_blank">here</a>.</p>
+                    <p style="font-size: 16px;">However, in each language several letters have larger frequency to be used. Therefore an analysis of frequency can easily break this kind of ciphers. You can learn more about frequency analysis from <a href= "cryptanalysis.html"target="_blank"> Cryptanalysis</a>.</p>
                     <br>
                     <br>
 
 
                   </li>
+
                   <li>The Vigenère Square
+                      <div style = "text-align:center;">
+                          <img src= "assets/img/Cryptography/10.png">
+                        </div>
+                    <p>To understand how it works, there is an example of an encryption using the Vigenere Square.<br>
+                      Suppose we want to encrypt “HELLOWORLDHELLOWORLD”.<br>
+                      Now chose a world to be the “key”, for example “SECURITY”. Repeat it until the length matches the length of the massage to be encrypted, for example, ”SECURITYSECURITYSECU”.<br><br>
+                      [ Row=key, Column=Message, match each letter. For example, first letter of message is H, we find column S and check H=Z. ]<br><br>
+                     </p>
+                    <p>Plaintext: HELLOWORLDHELLOWORLD<br>
+                      Key:	SECURITYSECURITYSECU<br>
+                      Cipher text: INFFEHPDHJYCTHUGVNX<br><br>
+                    </p>
+                    <p>Click <a href="https://planetcalc.com/2468/" target="_blank">here</a> to encrypt your own message. </p>
                     <br>
                     <br>
 
@@ -158,12 +177,57 @@
                   <li>The Enigma
                     <br>
                     <br>
+                      <div style = "text-align:center;">
+                          <img src= "assets/img/Cryptography/15.png">
+                          <p style="text-align: center">A Rotor of Enigma</p>
+                        </div>
+                        <br>
+                        <br>
+                      <div style = "text-align:center;">
+                          <img src= "assets/img/Cryptography/14.png">
+                          <p style="text-align: center">Example of Enigma wiring diagram</p>
+                        </div>
+                        <p style="font-size: 16px;">The input is A in this diagram and output is D. While pressing letter A, 3 rotors change randomly and change the way of reflection. The next letter “A” probably changes the way of encryption.</p>
+                        <div style = "text-align:center;">
+                            <img src= "assets/img/Cryptography/13.png">
+                          </div>
+                          <p style="font-size:16px;">Therefore there are many possible settings of Enigma and cause the difficulty of cryptanalysis of Enigma.</p>
+                          <div style = "text-align:center;">
+                              <img src= "assets/img/Cryptography/12.png">
+                              <p style="text-align: center">(calculation of possible settings)</p>
+                            </div>
+                            <p style="font-size: 16px;">Learn more about cryptanalysis of Enigma from “the bombe” on <a href="cryptanalysis.html" target="_blank">cryptanalysis section</a> .</p>
+                    <br>
+                    <br>
+                    
 
 
                   </li>
-                  <li>Key Crypto
+                  <li>Public Key Cryptography
+                      <div style = "text-align:center;">
+                          <img src= "assets/img/Cryptography/18.png">
+                          <p style="text-align: center">Explanation of Public-key crypto</p>
+                        </div>  
+                        <br>
+                        <br>
+                      <div style = "text-align:center;">
+                          <img src= "assets/img/Cryptography/16&17.png">
+                          <p style="text-align: center">How it works</p>
+                        </div>  
                   <br>
                   <br>
+                  <p style="font-size: 16px;">RSA is a widely used public key algorithm which provides digital signatures, key distribution and secrecy. Here is a video about RSA.</p>
+                  <br>
+                  <br>
+                  <div>
+                      <div style="text-align:center; height: 360px; width: 100%; ">
+                          <iframe width="427" height="240" src="https://www.youtube.com/embed/YQw124CtvO0" frameborder="0" gesture="media" allowfullscreen></iframe>
+                      <p style = "text-align:center ; width = 47.5%; float:bottom">RSA algorithm</p>
+                      </div>
+                      <div class="clear"></div>
+                    </div>
+
+                  <p></p>
 
                   </li>
                 </ul>
@@ -180,14 +244,14 @@
       <div class = "introFooter" >
           <h3>Introduction</h3>
           <h4>Further Reading</h4>
-          <p><a href = "https://en.wikipedia.org/wiki/Cryptography"target="_blank">Wikipedia</a>  •  <a href = "https://technet.microsoft.com/en-us/library/cc962030.aspx"target="_blank">Microsoft TechNet</a>  •  <a href = "http://practicalcryptography.com/" target="_blank">Practical Cryptography</a></p>
+          <p><a href = "https://technet.microsoft.com/en-us/library/cc962030.aspx"target="_blank">Microsoft TechNet</a>  •  <a href = "http://practicalcryptography.com/" target="_blank">Practical Cryptography</a></p>
           <h4>Videos</h4>
-          <p><a href = "https://www.khanacademy.org/computing/computer-science/cryptography/crypt/v/intro-to-cryptography"target="_blank">What is cryptography?</a> </p>
+          <p><a href = "https://www.khanacademy.org/computing/computer-science/cryptography/crypt/v/intro-to-cryptography"target="_blank">What is cryptography?</a>  •  <a href="https://www.youtube.com/watch?v=N-bMxnjiqjg"target="_blank">Top 10 Uncracked Codes and Ciphers</a> </p>
           <h3>History</h3>
           <h4>Further Reading</h4>
-          <p><a href = "https://www.slideshare.net/guest9006ab/a-brief-history-of-cryptography"target="_blank">a brief history of cryptography</a>  •  <a href = "http://www.cypher.com.au/crypto_history.htm"target="_blank">Cypher Research LAB</a>  •  <a href = "https://en.wikipedia.org/wiki/History_of_cryptography"target="_blank">Wikipedia</a>  •  <a href = "http://www.bbc.co.uk/history/worldwars/wwtwo/enigma_01.shtml"target="_blank">Break Enigma Code</a></p>
+          <p><a href = "https://www.slideshare.net/guest9006ab/a-brief-history-of-cryptography"target="_blank">a brief history of cryptography</a>  •  <a href = "http://www.cypher.com.au/crypto_history.htm"target="_blank">Cypher Research LAB</a>  •  <a href = "http://www.bbc.co.uk/history/worldwars/wwtwo/enigma_01.shtml"target="_blank">Break Enigma Code</a>  •  <a href = "https://www.ibm.com/support/knowledgecenter/en/SSB23S_1.1.0.14/gtps7/s7pkey.html"target="_blank">Public key cryptography</a></p>
           <h4>Videos</h4>
-          <p><a href = "https://youtu.be/d2NWPG2gB_A?list=PLSZR1tkzeKC1kzIHSGLmtlYwNaFoaMSV3"target="_blank">Computerphile's Engima Series</a>  •  <a href="https://www.youtube.com/watch?v=gtRLmL70TH0"target="_blank">Cambridge University (Alan Turing - Celebrating the life of a genius)</a></p>
+          <p><a href = "https://www.youtube.com/watch?v=-yFZGF8FHSg"target="_blank">Cryptography: The Science of Making and Breaking Codes</a>  •  <a href="https://www.youtube.com/watch?v=sMOZf4GN3oc"target="_blank">The Caesar Cipher</a>  •  <a href="https://www.youtube.com/watch?v=BgFJD7oCmDE"target="_blank">Polyalphabetic Cipher</a></p>
         </div>
       </div>
       <!-- FOOTER -->
